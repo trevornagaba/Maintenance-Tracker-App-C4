@@ -1,0 +1,7 @@
+tracker-venv/
+congfig.py
+*__pycache__
+*.pytest_cache
+*.pyc
+.coverage
+.vscode
