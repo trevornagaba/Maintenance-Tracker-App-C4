@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #c8e6c9;
+    background: url(../img/home_bg.jpg);
+    background-size: cover;
+}
+
+.welcome {
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    left: 160px;
+    color: white;
+}
+
+#_welcome {
+    height: 600px;
+    text-align: center;
+}
+
+.image {
+    position: relative;
+    width: 75%;
+    height: auto;
+}
