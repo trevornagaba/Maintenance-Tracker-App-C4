@@ -26,25 +26,25 @@
             </div>
         </div>
 
-        <form id = 'login-form' class = 'form'>
+        <form id = 'login-form' class = 'form' onsubmit="loginIn()">
 
             <h2>Login</h2>
 
             <!--Enter username-->
             <div class = 'input-field'>
                 <label class = 'label'>Username</label><br />
-                <input class = 'username' type = 'text' placeholder = 'Username' /> 
+                <input class = 'username' name = 'username' type = 'text' placeholder = 'Username' /> 
             </div>
 
             <!--Enter password-->
             <div class = 'input-field'>
                 <label class = 'label'>Password</label><br />
-                <input class = 'password' type = 'text' placeholder = 'Password' /> 
+                <input class = 'password' name = 'password' type = 'text' placeholder = 'Password' /> 
             </div>
 
             <!--Login button-->
             <div class = 'submit-button'>
-                <button class = 'login-button'><a href = './home.html'>LOGIN</a></button>
+                <button class = 'login-button' type="submit" ><a href = './home.html'></a>LOGIN</a></button>
             </div>
 
         </form>

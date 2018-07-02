@@ -26,29 +26,33 @@
         </div>
         
         <!-- Signup form-->
-        <form id = 'signup-form' class = 'form'>
+        <form id = 'signup-form' name = 'signup-form' class = 'form'>
             <h2>Signup</h2>
             <!--Create username-->
             <div class = 'input-field'>
                 <label class = 'label'>Username</label><br />
-                <input class = 'username' type = 'text' placeholder = 'Create Username' /> 
+                <input class = 'username' name = 'username' type = 'text' placeholder = 'Create Username' /> 
             </div>
 
             <!--Create password-->
             <div class = 'input-field'>
                 <label class = 'label'>Password</label><br />
-                <input class = 'password' type = 'text' placeholder = 'Create Password' /> 
+                <input class = 'password' name = 'password' type = 'text' placeholder = 'Create Password' /> 
             </div>
 
             <!--Re-enter password-->
             <div class = 'input-field'>
                     <label class = 'label'>Password</label><br />
-                    <input class = 'password' type = 'text' placeholder = 'Re-enter Password' /> 
+                    <input class = 'password' name = 'reenter_password' type = 'text' placeholder = 'Re-enter Password' /> 
                 </div>    
 
             <!--Signup button-->
             <div class = 'submit-button'>
-                <button class = 'signup-button'>SIGNUP</button>
+                <button class = 'signup-button' onclick="signUp()">SIGNUP</button>
+            </div>
+
+            <div id = 'test_div'>
+                
             </div>
         </form>
     </div>
